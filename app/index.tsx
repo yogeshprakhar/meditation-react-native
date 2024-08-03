@@ -1,7 +1,6 @@
 import { View, Text, ImageBackground, StatusBar } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import beachImage from "../assets/meditation-images/beach.webp";
-import { LinearGradient } from "expo-linear-gradient";
 import CustomButton from "@/components/CustomButton";
 import { useRouter } from "expo-router";
 import AppGradient from "@/components/AppGradient";
