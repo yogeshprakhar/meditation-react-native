@@ -20,7 +20,8 @@ const meditate = () => {
 
   useEffect(() => {
     let timerId: NodeJS.Timeout;
-
+    
+    // console.warn("secondRemaining",secondRemaining)
     if (secondRemaining === 0) {
       setIsmeditating(false);
       setIsPlayingAudio(false)
